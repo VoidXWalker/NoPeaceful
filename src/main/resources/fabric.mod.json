@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "nopeaceful",
+  "version": "1.0.0",
+  "name": "No Peaceful",
+  "description": "Removes the peaceful difficulty",
+  "authors": [
+    "Void_X_Walker"
+  ],
+  "contact": {
+    "repo": "https://github.com/VoidXWalker/NoPeaceful"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.voidxwalker.peaceful.Main"
+    ]
+  },
+  "mixins": [
+    "peaceful.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4"
+  }
+}

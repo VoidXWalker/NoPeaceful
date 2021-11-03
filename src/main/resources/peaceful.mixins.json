@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.voidxwalker.peaceful.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "DifficultyMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
