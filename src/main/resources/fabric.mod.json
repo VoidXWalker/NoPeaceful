@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "nopeaceful",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "No Peaceful",
   "description": "Removes the peaceful difficulty",
   "authors": [
@@ -10,7 +10,7 @@
   "contact": {
     "repo": "https://github.com/VoidXWalker/NoPeaceful"
   },
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
@@ -23,6 +23,6 @@
     "peaceful.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.7.4"
+    "fabricloader": ">=0.7.2"
   }
 }
